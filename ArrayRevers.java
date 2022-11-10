@@ -7,9 +7,9 @@ public class ArrayRevers {
     public static void main(String[] args) {
 
         int[] nums = {2, 3, 1, 7, 11};
-        SortAndPrint(nums);
+        sortAndPrint(nums);
     }
-    public static void SortAndPrint(int[] m) {
+    public static void sortAndPrint(int[] m) {
 
         Arrays.sort(m);
         for (int i = m.length - 1; i >= 0; i--)
