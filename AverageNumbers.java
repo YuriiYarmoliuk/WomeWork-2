@@ -10,10 +10,8 @@ public class AverageNumbers {
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
         }
-        double avarage = 0;
-        for (int i = 0; i < nums.length; i++) {
-            avarage = (double) sum / nums.length;
-        }
+        double avarage = (double) sum / nums.length
+            
         System.out.println("Avarage of a list of numbers = " + avarage);
     }
 }
